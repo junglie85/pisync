@@ -1,0 +1,11 @@
+{
+    "pisync.target.user": "root",
+    "pisync.target.address": "127.0.0.1",
+    "pisync.target.port": 8022,
+    "pisync.target.privateKey": "${workspaceFolder}/docker/id_ecdsa",
+    "pisync.target.passphrase": "",
+    "pisync.target.cwd": "/build",
+    "pisync.artifacts.synchronisedDirectories": {
+        "build": "deployed"
+    }
+}
